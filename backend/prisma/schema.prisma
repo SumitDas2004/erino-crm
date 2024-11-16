@@ -1,0 +1,19 @@
+datasource db {
+    url      = env("DB_URL")
+    provider = "postgresql"
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model Contact {
+    contact_id String   @id @default(uuid())
+    first_name String   @db.Text()
+    last_name  String   @db.Text()
+    email      String   @unique() @db.Text()
+    phone      String   @unique()
+    company    String   @db.Text()
+    job_title  String   @db.Text()
+    created_at DateTime @default(now()) @db.Date()
+}
