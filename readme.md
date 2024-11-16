@@ -87,3 +87,8 @@ Start the server
 ## API Reference
 
 Find all the api collections here: https://documenter.getpostman.com/view/32803371/2sAYBPmECZ
+
+
+## Challenges faced
+
+The main challenge I faced in this was using MUI as this was my first time using MUI so it was a challenging task. I relied upon the docs to understand the working of MUI components and implement them in this project.
