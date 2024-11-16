@@ -26,7 +26,7 @@ export const HomeComponent = () => {
       </Typography>
       <Typography marginTop={2} variant='subtitle2'>
         Find the repository{' '}
-        <Link href="https://github.com/SumitDas2004/crm" target="_blank">
+        <Link href="https://github.com/SumitDas2004/erino-crm">
           here
         </Link>
         .
