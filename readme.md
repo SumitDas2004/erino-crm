@@ -18,6 +18,8 @@ This is a basic application for managing the contacts of the organization.
 
 **Server:** Node, Typescript, NestJS
 
+**Database:** Postgresql
+
 
 ## Screenshots
 
